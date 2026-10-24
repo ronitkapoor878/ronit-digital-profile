@@ -28,10 +28,10 @@ type SkillCategory = {
 const highlights: Highlight[] = [
   {
     number: "01",
-    title: "AI-Powered PR Review Agent · Westpac",
+    title: "Retail Banker Enablement Platform · Westpac",
     description:
-      "Built a PR review agent aligned to team standards, integrated with Jira through MCP, and improved delivery pipelines by automating E2E test scenario generation.",
-    tags: ["AI", "MCP", "Engineering Quality", "Automation"],
+      "Engineered a banker-facing platform that surfaces pipeline status, appointment schedules, and complaint workflows in a single experience, improving service responsiveness. Delivered as part of a critical uplift program migrating legacy banker journeys to Westpac's strategic modern technology stack.",
+    tags: ["React", "Node.js", "Retail Banking", "Legacy Modernization"],
     href: "https://au.linkedin.com/in/ronit-rajesh-kapoor",
   },
   {
@@ -87,7 +87,7 @@ const initiatives: Initiative[] = [
   {
     title: "Senior Consultant",
     client: "Largest Australian Insurer",
-    duration: "September 2023 — Present",
+    duration: "September 2023 — February 2026",
     responsibilities: [
       "Worked as a senior engineer migrating a heritage payment gateway to the new strategic payment platform.",
       "Oversaw onboarding of multiple brands to the new payment gateway solution.",
@@ -474,7 +474,10 @@ export default function App() {
             </span>
           </a>
           <div className="mt-10 flex flex-col gap-5 text-sm font-medium sm:flex-row sm:items-center sm:justify-between">
-            <p>© Ronit Rajesh Kapoor</p>
+            <p>
+              Built by Ronit — shipping features and fixing “quick bugs” since
+              day one.
+            </p>
             <div className="flex gap-6">
               <a
                 className="underline-offset-4 hover:underline"
