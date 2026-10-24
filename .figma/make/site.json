@@ -1,0 +1,11 @@
+{
+  "title": "Personal Profile page",
+  "description": "Showcase your software development experience, projects, and ambitions with an interactive profile page linking to your repositories for professional growth.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
